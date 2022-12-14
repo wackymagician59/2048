@@ -187,7 +187,7 @@ hr {
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
-      color: #7d7b79;
+      color: #f9f6f2;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
@@ -195,7 +195,7 @@ hr {
         display: none; }
     .game-container .game-message.game-won {
       background: rgba(237, 194, 46, 0.5);
-      color: #7d7b79; }
+      color: #f9f6f2; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
     .game-container .game-message.game-won, .game-container .game-message.game-over {
@@ -606,6 +606,7 @@ hr {
       -moz-animation-fill-mode: both;
       animation-fill-mode: both; }
       .game-container .game-message p {
+        color: white;
         font-size: 60px;
         font-weight: bold;
         height: 60px;
