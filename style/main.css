@@ -138,7 +138,6 @@ hr {
   100% {
     opacity: 1; } }
 .game-container {
-  color: black;
   margin-top: 40px;
   position: relative;
   padding: 15px;
@@ -158,13 +157,14 @@ hr {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
   .game-container .game-message {
+    color: black;
     display: none;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(25, 25, 24, 0.5);
+    background: rgba(25, 25, 24, 0.75);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -193,6 +193,7 @@ hr {
       line-height: 42px;
       margin-left: 9px; }
       .game-container .game-message a.keep-playing-button {
+        color: white;
         display: none; }
     .game-container .game-message.game-won {
       background: rgba(237, 194, 46, 0.5);
@@ -598,7 +599,7 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba(25, 25, 24, 0.5);
+      background: rgba(25, 25, 24, 0.75);
       z-index: 100;
       text-align: center;
       -webkit-animation: fade-in 800ms ease 1200ms;
