@@ -157,7 +157,7 @@ hr {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
   .game-container .game-message {
-    color: black;
+    color: white;
     display: none;
     position: absolute;
     top: 0;
@@ -331,9 +331,11 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
+    color: #191918;
     background: #eee4da;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
+    color: #191918;
     background: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
@@ -592,7 +594,7 @@ hr {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
     .game-container .game-message {
-      color: black;
+      color: white;
       display: none;
       position: absolute;
       top: 0;
