@@ -590,7 +590,7 @@ hr {
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
     .game-container .game-message {
-      color: white;
+      color: black;
       display: none;
       position: absolute;
       top: 0;
@@ -626,6 +626,7 @@ hr {
         line-height: 42px;
         margin-left: 9px; }
         .game-container .game-message a.keep-playing-button {
+          color: white;
           display: none; }
       .game-container .game-message.game-won {
         background: rgba(237, 194, 46, 0.5);
